@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let jokes = Jokes()  // Create object for Jokes class and cannot be changed (keyword: let)
+        for joke in jokes.jokes{
+            print(joke)
+        }
     }
 
     override func didReceiveMemoryWarning() {
