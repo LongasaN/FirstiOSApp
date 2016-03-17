@@ -17,6 +17,7 @@
 		3F3019AE1C989ADA003EFA70 /* Fluffy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3019AA1C989ADA003EFA70 /* Fluffy.png */; };
 		3F3019AF1C989ADA003EFA70 /* Munchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3019AB1C989ADA003EFA70 /* Munchie.png */; };
 		3F3019B01C989ADA003EFA70 /* Squido.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3019AC1C989ADA003EFA70 /* Squido.png */; };
+		3FCAC99A1C9B362E0018870C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCAC9991C9B362E0018870C /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3F3019AA1C989ADA003EFA70 /* Fluffy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fluffy.png; sourceTree = "<group>"; };
 		3F3019AB1C989ADA003EFA70 /* Munchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Munchie.png; sourceTree = "<group>"; };
 		3F3019AC1C989ADA003EFA70 /* Squido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Squido.png; sourceTree = "<group>"; };
+		3FCAC9991C9B362E0018870C /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				3F3019951C98902C003EFA70 /* AppDelegate.swift */,
 				3F3019971C98902C003EFA70 /* ViewController.swift */,
 				3F3019991C98902C003EFA70 /* Main.storyboard */,
+				3FCAC9991C9B362E0018870C /* NewViewController.swift */,
 				3F30199C1C98902C003EFA70 /* Assets.xcassets */,
 				3F30199E1C98902C003EFA70 /* LaunchScreen.storyboard */,
 				3F3019A11C98902C003EFA70 /* Info.plist */,
@@ -157,6 +160,7 @@
 				3F3019981C98902C003EFA70 /* ViewController.swift in Sources */,
 				3F3019A81C989614003EFA70 /* Jokes.swift in Sources */,
 				3F3019961C98902C003EFA70 /* AppDelegate.swift in Sources */,
+				3FCAC99A1C9B362E0018870C /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				3F3019A61C98902C003EFA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

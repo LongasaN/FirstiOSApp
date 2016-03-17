@@ -79,11 +79,41 @@
                         <outlet property="monsterImageView" destination="k3I-oJ-Bgl" id="6he-r2-7fP"/>
                         <outlet property="tipLabel" destination="bvV-d8-LPU" id="vEd-fb-Efa"/>
                         <outlet property="tipPercentTextField" destination="efH-to-bKr" id="1ZZ-6L-Frr"/>
+                        <segue destination="3D5-Mm-wIx" kind="modal" identifier="GoToNewView" id="PON-hj-yZu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="406"/>
+            <point key="canvasLocation" x="-90" y="506"/>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="cfG-E0-CHV">
+            <objects>
+                <viewController id="3D5-Mm-wIx" customClass="NewViewController" customModule="FirstiOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BYa-je-9WU"/>
+                        <viewControllerLayoutGuide type="bottom" id="DIn-1H-6hi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1tl-Vl-W8h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OJ-dq-8DV">
+                                <rect key="frame" x="20" y="273" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tipLabel" destination="8OJ-dq-8DV" id="gdv-Nf-icH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ncu-PJ-X4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="506"/>
         </scene>
     </scenes>
     <resources>

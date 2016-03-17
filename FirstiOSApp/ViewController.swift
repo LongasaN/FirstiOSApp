@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipLabel: UILabel!
     
+    var calculatedTip = ""
+    
     @IBAction func calculateTip(sender: UIButton) {
         var tip = 0.0
         var dAmount = 0.0
@@ -32,6 +34,17 @@ class ViewController: UIViewController {
         }
         
         tipLabel.text = "Tip is $\(String(tip))"
+        
+        calculatedTip = "Tip is $\(String(tip))"
+        
+        performSegueWithIdentifier("GoToNewView", sender: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "GoToNewView" {
+            let newViewController = segue.destinationViewController as? NewViewController
+            newViewController?.tipToShow = calculatedTip
+        }
     }
     
     
